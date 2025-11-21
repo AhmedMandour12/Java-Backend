@@ -6,7 +6,7 @@ public class Main {
 
             try {
                 System.out.println("Inner try block");
-                int x = 10 / 0;   // ArithmeticException happens here
+                int x = 10 / 0;  
             }
             catch (NullPointerException e) {
                 System.out.println("Inner catch: This will NOT run");
