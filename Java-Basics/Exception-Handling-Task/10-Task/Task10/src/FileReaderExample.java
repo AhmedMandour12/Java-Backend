@@ -4,7 +4,7 @@ public class FileReaderExample {
     public static void main(String[] args) {
 
         try {
-            readFile();   // استدعاء الميثود اللي ممكن ترمي IOException
+            readFile();   
 
         } catch (IOException e) {
             System.out.println("Caught IOException: " + e.getMessage());
